@@ -88,12 +88,16 @@ input, select, textarea {
 			font-size:12px;
 			min-width: 200px;
 			display: inline;
-			line-height: 2em;
+			line-height: 3em;
+			margin-bottom: 20px;
+			padding-bottom: 4em;
 		}
 		h1.minor,h2.minor,h3.minor,h4.minor {
 			font-size:12px;
 			display: inline;
-			line-height: 2em;
+			line-height: 3em;
+			margin-bottom: 20px;
+			padding-bottom: 25px;
 		}
 
 		div.column {
