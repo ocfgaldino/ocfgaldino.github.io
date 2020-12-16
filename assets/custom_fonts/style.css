@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?t36xz8');
-  src:  url('fonts/icomoon.eot?t36xz8#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?t36xz8') format('truetype'),
-    url('fonts/icomoon.woff?t36xz8') format('woff'),
-    url('fonts/icomoon.svg?t36xz8#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?occ7zl');
+  src:  url('fonts/icomoon.eot?occ7zl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?occ7zl') format('truetype'),
+    url('fonts/icomoon.woff?occ7zl') format('woff'),
+    url('fonts/icomoon.svg?occ7zl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,129 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-matlab-seeklogocom:before {
+  content: "\e901";
+}
+.icon-google-big-query-seeklogocom .path1:before {
+  content: "\e902";
+  color: rgb(255, 255, 255);
+}
+.icon-google-big-query-seeklogocom .path2:before {
+  content: "\e903";
+  margin-left: -2em;
+  color: rgb(0, 0, 0);
+  opacity: 0.1;
+}
+.icon-google-big-query-seeklogocom .path3:before {
+  content: "\e904";
+  margin-left: -2em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-big-query-seeklogocom .path4:before {
+  content: "\e905";
+  margin-left: -2em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-big-query-seeklogocom .path5:before {
+  content: "\e906";
+  margin-left: -2em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-big-query-seeklogocom .path6:before {
+  content: "\e907";
+  margin-left: -2em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-big-query-seeklogocom .path7:before {
+  content: "\e908";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path8:before {
+  content: "\e909";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path9:before {
+  content: "\e90a";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path10:before {
+  content: "\e90b";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path11:before {
+  content: "\e90c";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path12:before {
+  content: "\e90d";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path13:before {
+  content: "\e90e";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path14:before {
+  content: "\e90f";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path15:before {
+  content: "\e910";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path16:before {
+  content: "\e911";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path17:before {
+  content: "\e912";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path18:before {
+  content: "\e913";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path19:before {
+  content: "\e914";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-big-query-seeklogocom .path20:before {
+  content: "\e915";
+  margin-left: -2em;
+  color: rgb(118, 118, 119);
+}
+.icon-google-bigquery-logo-1 .path1:before {
+  content: "\e916";
+  color: rgb(255, 255, 255);
+}
+.icon-google-bigquery-logo-1 .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.0700;
+}
+.icon-google-bigquery-logo-1 .path3:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-google-bigquery-logo-1 .path4:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
 .icon-bigquery-icon:before {
   content: "\e900";
   color: #fff;
