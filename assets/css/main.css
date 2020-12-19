@@ -29,6 +29,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+figcaption {
+	background-color: rgba(27, 31, 34, 0.85);
+	color: rgb(189, 186, 186);
+	font: italic smaller sans-serif;
+	padding: 0px;
+	text-align: center;
+	margin-top: -2.3em;
+}
+	
+
 body {
 	line-height: 1;
 }
