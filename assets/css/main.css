@@ -169,6 +169,19 @@ input, select, textarea {
 
 		}
 
+		@media screen and (min-width: 601px) {
+			div {
+			  font-size: 14px;
+			}
+		  }
+		  
+		  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+		  @media screen and (max-width: 600px) {
+			div {
+			  font-size: 10px;
+			}
+		  }
+
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
@@ -1994,23 +2007,23 @@ top: 0;
 left: -35px;
 width: 12px;
 height: 12px;
-border: 2px solid #CCC;
+border: 2px solid rgba(0, 128, 0, 0.507);
 border-radius: 50%;
-background-color: #FFF;
+background-color: rgba(0, 128, 0, 0.507);
 }
 .StepProgress-item.is-done::before {
-border-left: 2px solid green;
+border-left: 2px solid rgba(0, 128, 0, 0.507);
 }
 .StepProgress-item.is-done::after {
 /*content: "?";*/
 font-size: 10px;
 color: #FFF;
 text-align: center;
-border: 2px solid green;
-background-color: green;
+border: 2px solid rgba(0, 128, 0, 0.507);
+background-color: rgba(0, 128, 0, 0.507);
 }
 .StepProgress-item.intership::before {
-	border-left: 2px solid blue;
+	border-left: 2px solid rgba(0, 0, 255, 0.445);
 	}
 	.StepProgress-item.intership::after {
 	/*content: "?";*/
@@ -2018,8 +2031,8 @@ background-color: green;
 	color: #FFF;
 	text-align: center;
 	left: -35px;
-	border: 2px solid blue;
-	background-color: blue;
+	border: 2px solid rgba(0, 0, 255, 0.445);
+	background-color: rgba(0, 0, 255, 0.445);
 	}
 .StepProgress-item.current::before { 
 border-left: 2px solid green;
@@ -2033,12 +2046,12 @@ top: -4px;
 left: -40px;
 font-size: 14px;
 text-align: center;
-color: green;
-border: 2px solid green;
-background-color: white;
+color: rgba(0, 128, 0, 0.507);
+border: 2px solid rgb(113, 238, 113);
+background-color: rgb(214, 130, 130);
 }
 .StepProgress-item.current-intern::before { 
-	border-left: 2px solid blue;
+	border-left: 2px solid rgba(0, 0, 255, 0.445);
 	}
 	.StepProgress-item.current-intern::after {
 	/* content: counter(list); */
@@ -2049,12 +2062,12 @@ background-color: white;
 	left: -38px;
 	font-size: 14px;
 	text-align: center;
-	color: blue;
-	border: 2px solid blue;
+	color: rgba(0, 0, 255, 0.253);
+	border: 2px solid rgba(0, 0, 255, 0.151);
 	background-color: blue;
 	}
 	.StepProgress-item.current-professional::before { 
-		border-left: 2px solid green;
+		border-left: 2px solid rgba(0, 128, 0, 0.507);
 		}
 		.StepProgress-item.current-professional::after {
 		/* content: counter(list); */
@@ -2072,3 +2085,6 @@ background-color: white;
 .StepProgress strong {
 display: block;
 }
+
+
+
