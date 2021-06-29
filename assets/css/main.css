@@ -295,6 +295,14 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
+	p {
+		font-size: 1rem;
+	}
+
+	li {
+		font-size: 0.9rem;
+	}
+
 	div.column {
 		float: left;
 		width: 50%;
@@ -1981,7 +1989,7 @@ top: 0;
 left: 18px;
 width: 10px;
 height: 100%;
-border-left: 2px solid #CCC;
+border-left: 2px solid rgba(204, 204, 204, 0);
 }
 .StepProgress-item {
 position: relative;
