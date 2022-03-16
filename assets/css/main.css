@@ -822,6 +822,11 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.gif img{
+			width:850px;
+			height:400px;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
