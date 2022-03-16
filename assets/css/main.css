@@ -823,8 +823,7 @@ input, select, textarea {
 		}
 
 		.image.gif img{
-			width:850px;
-			height:400px;
+			width:100%;
 		}
 
 		.image.left, .image.right {
